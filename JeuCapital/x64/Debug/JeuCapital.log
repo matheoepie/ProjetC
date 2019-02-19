@@ -1,0 +1,11 @@
+﻿  main.c
+  IHM.c
+c:\users\mepie\desktop\jeucapital\jeucapital\ihm.c(6): warning C4013: 'chargementPays' non défini(e) ; extern retournant int pris par défaut
+c:\users\mepie\desktop\jeucapital\jeucapital\ihm.c(22): warning C4013: 'afficherListePays' non défini(e) ; extern retournant int pris par défaut
+  gestionpays.c
+c:\users\mepie\desktop\jeucapital\jeucapital\gestionpays.c(4): warning C4101: 'c' : variable locale non référencée
+c:\users\mepie\desktop\jeucapital\jeucapital\gestionpays.c(15): warning C4101: 'r' : variable locale non référencée
+  chaine.c
+  Génération de code en cours...
+  JeuCapital.vcxproj -> C:\Users\MEPIE\Desktop\JeuCapital\x64\Debug\JeuCapital.exe
+  JeuCapital.vcxproj -> C:\Users\MEPIE\Desktop\JeuCapital\x64\Debug\JeuCapital.pdb (Partial PDB)
