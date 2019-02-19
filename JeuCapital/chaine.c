@@ -1,6 +1,168 @@
 #include "chaine.h"
-	
 
+int gestionAccent(char* pchar)
+{
+	while (*pchar) {
+		switch (*pchar)
+
+		{
+
+		case -1:
+			*pchar = 152;
+			break;
+		case -3:
+			*pchar = 235;
+			break;
+		case -4:
+			*pchar = 129;
+			break;
+		case -5:
+			*pchar = 150;
+			break;
+		case -6:
+			*pchar = 163;
+			break;
+		case -7:
+			*pchar = 151;
+			break;
+		case -10:
+			*pchar = 148;
+			break;
+		case -12:
+			*pchar = 147;
+			break;
+		case -13:
+			*pchar = 224;
+			break;
+		case -14:
+			*pchar = 149;
+			break;
+		case -15:
+			*pchar = 164;
+			break;
+		case -17:
+			*pchar = 139;
+			break;
+		case -18:
+			*pchar = 140;
+			break;
+		case -19:
+			*pchar = 161;
+			break;
+		case -20:
+			*pchar = 141;
+			break;
+		case -21:
+			*pchar = 137;
+			break;
+		case -22:
+			*pchar = 136;
+			break;
+		case -23:
+			*pchar = 130;
+			break;
+		case -24:
+			*pchar = 138;
+			break;
+		case -25:
+			*pchar = 135;
+			break;
+		case -26:
+			*pchar = 145;
+			break;
+		case -27:
+			*pchar = 134;
+			break;
+		case -28:
+			*pchar = 132;
+			break;
+		case -29:
+			*pchar = 198;
+			break;
+		case -30:
+			*pchar = 131;
+			break;
+		case -31:
+			*pchar = 160;
+			break;
+		case -32:
+			*pchar = 133;
+			break;
+		case -36:
+			*pchar = 154;
+			break;
+		case -37:
+			*pchar = 233;
+			break;
+		case -38:
+			*pchar = 234;
+			break;
+		case -39:
+			*pchar = 232;
+			break;
+		case -43:
+			*pchar = 153;
+			break;
+		case -44:
+			*pchar = 226;
+			break;
+		case -46:
+			*pchar = 227;
+			break;
+		case -47:
+			*pchar = 165;
+			break;
+		case -49:
+			*pchar = 216;
+			break;
+		case -50:
+			*pchar = 215;
+			break;
+		case -51:
+			*pchar = 214;
+			break;
+		case -53:
+			*pchar = 211;
+			break;
+		case -54:
+			*pchar = 210;
+			break;
+		case -55:
+			*pchar = 144;
+			break;
+		case -56:
+			*pchar = 212;
+			break;
+		case -57:
+			*pchar = 128;
+			break;
+		case -58:
+			*pchar = 146;
+			break;
+		case -59:
+			*pchar = 143;
+			break;
+		case -60:
+			*pchar = 142;
+			break;
+		case -61:
+			*pchar = 199;
+			break;
+		case -62:
+			*pchar = 182;
+			break;
+		case -63:
+			*pchar = 181;
+			break;
+		case -64:
+			*pchar = 183;
+			break;
+		}
+		pchar = pchar + 1;
+	}
+	return *pchar;
+
+}
 void FormatAccent(unsigned char* pchar)
 {
 	while (*pchar)

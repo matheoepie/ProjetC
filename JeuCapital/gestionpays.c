@@ -107,8 +107,22 @@ void afficherListePays(PAYS * pTab) {
 
 }
 
-int strncmp(char chaine1[], char chaine2[], int maxlen) {
+
+int strnicmp(char *chaine1[], char *chaine2[], int maxlen) {
 	int i = 0;
+	char c1;
+	char c2;
+
+	do {
+		c1 = *chaine1[i];
+		c2 = *chaine2[i];
+		if (c1 >= 65 && c1 <= 90)
+			c1 += 32;
+		if (c2 >= 65 && c2 <= 90)
+			c2 += 32;
+		i++;
+	} while (c1 != '\0' && c2 != '\0' && c1 == c2);
+	 i = 0;
 	while (chaine1[i] == chaine2[i] && chaine1[i] != '\0' && chaine2[i] != '\0' && i < maxlen) {
 		i++;
 	}
@@ -119,17 +133,24 @@ int strncmp(char chaine1[], char chaine2[], int maxlen) {
 int jeuCapitale(PAYS *pPays) {
 	int i = 0;
 	int b = 0;
-	int score;
+	int score = 0;
 	char chaine[25];
 	srand((unsigned int)time(NULL));
 	while (i <= 192) {
 		b = rand() % 192;
-		printf("%d\n", (pPays + b)->nom);
+		printf("%s\n", (pPays + b)->nom);
 		printf("entrez les trois premiere lettre de la capitale :\n");
 		scanf("%s", chaine);
-		strnmcp(PAYS *pPays, chaine,)
-	
-
+		if (_strnicmp((pPays + b)->capitale, chaine, 3) == 0 ) {
+			printf("Bien jouer\n");
+			score++;
+		}
+		else {
+			i = 192;
+			printf("Dommage\n");
+			printf("Votre score est %d", score);
+		}
+		i++;
 	}
 	return score;
 }

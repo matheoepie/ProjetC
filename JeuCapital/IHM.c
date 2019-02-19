@@ -23,7 +23,7 @@ void menu() {
 			system("pause");
 			break;
 		case 2:
-			jeuCapitale();
+			jeuCapitale(tab);
 			system("pause");
 		break;
 		}
