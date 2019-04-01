@@ -1,0 +1,44 @@
+﻿  gestionpays.c
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.h(18): warning C4028: paramètre formel 1 différent de la déclaration
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.h(18): warning C4028: paramètre formel 2 différent de la déclaration
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.h(18): warning C4028: paramètre formel 3 différent de la déclaration
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.h(18): warning C4273: 'strnicmp' : liaison DLL incohérente
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: voir la définition précédente de 'strnicmp'
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(5): warning C4101: 'c' : variable locale non référencée
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(16): warning C4101: 'r' : variable locale non référencée
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(117): warning C4047: '=' : les niveaux d'indirection de 'char **' et de 'char' sont différents
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(118): warning C4047: '=' : les niveaux d'indirection de 'char **' et de 'char' sont différents
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(119): warning C4047: '>=' : les niveaux d'indirection de 'char **' et de 'int' sont différents
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(119): warning C4047: '<=' : les niveaux d'indirection de 'char **' et de 'int' sont différents
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(121): warning C4047: '>=' : les niveaux d'indirection de 'char **' et de 'int' sont différents
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(121): warning C4047: '<=' : les niveaux d'indirection de 'char **' et de 'int' sont différents
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(132): warning C4244: 'return' : conversion de '__int64' en 'int', perte possible de données
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(113): warning C4101: 'c1' : variable locale non référencée
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(114): warning C4101: 'c2' : variable locale non référencée
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(154): warning C4129: 'M' : caractère de séquence d'échappement non reconnu
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(154): warning C4129: 'D' : caractère de séquence d'échappement non reconnu
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(154): warning C4129: 'P' : caractère de séquence d'échappement non reconnu
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(154): warning C4129: 'J' : caractère de séquence d'échappement non reconnu
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(155): warning C4047: 'fonction' : les niveaux d'indirection de 'int' et de 'FILE *' sont différents
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(155): warning C4024: 'fgets' : types différents pour le paramètre formel et réel 2
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(155): warning C4047: 'fonction' : les niveaux d'indirection de 'FILE *' et de 'int' sont différents
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(155): warning C4024: 'fgets' : types différents pour le paramètre formel et réel 3
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(156): warning C4047: 'fonction' : les niveaux d'indirection de 'int' et de 'FILE *' sont différents
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(156): warning C4024: 'fgets' : types différents pour le paramètre formel et réel 2
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(156): warning C4047: 'fonction' : les niveaux d'indirection de 'FILE *' et de 'int' sont différents
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(156): warning C4024: 'fgets' : types différents pour le paramètre formel et réel 3
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(214): warning C4129: 'M' : caractère de séquence d'échappement non reconnu
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(214): warning C4129: 'D' : caractère de séquence d'échappement non reconnu
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(214): warning C4129: 'P' : caractère de séquence d'échappement non reconnu
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(214): warning C4129: 'J' : caractère de séquence d'échappement non reconnu
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(215): warning C4047: 'fonction' : les niveaux d'indirection de 'int' et de 'FILE *' sont différents
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(215): warning C4024: 'fgets' : types différents pour le paramètre formel et réel 2
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(215): warning C4047: 'fonction' : les niveaux d'indirection de 'FILE *' et de 'int' sont différents
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(215): warning C4024: 'fgets' : types différents pour le paramètre formel et réel 3
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(216): warning C4047: 'fonction' : les niveaux d'indirection de 'int' et de 'FILE *' sont différents
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(216): warning C4024: 'fgets' : types différents pour le paramètre formel et réel 2
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(216): warning C4047: 'fonction' : les niveaux d'indirection de 'FILE *' et de 'int' sont différents
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(216): warning C4024: 'fgets' : types différents pour le paramètre formel et réel 3
+c:\users\mepie\desktop\projetc\jeucapital\gestionpays.c(284): warning C4101: 'statut' : variable locale non référencée
+     CrÚation de la bibliothÞque C:\Users\MEPIE\Desktop\ProjetC\x64\Debug\JeuCapital.lib et de l'objet C:\Users\MEPIE\Desktop\ProjetC\x64\Debug\JeuCapital.exp
+  JeuCapital.vcxproj -> C:\Users\MEPIE\Desktop\ProjetC\x64\Debug\JeuCapital.exe
